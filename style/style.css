@@ -1,0 +1,43 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #2e2e2e;
+}
+
+.container {
+  background: #a3a300;
+  width: 35rem;
+  height: 35rem;
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.container .row {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  justify-content: space-between;
+}
+.container .row .slot {
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 2.5rem;
+  background: black;
+}
+
+.red {
+  background: maroon;
+}
+
+.blue {
+  background: navy;
+}/*# sourceMappingURL=style.css.map */
